@@ -1,7 +1,7 @@
 package com.practice.shaodw.leetcode.string.palin;
 
 
-import com.practice.shaodw.anno.Better;
+import com.shaodw.anno.Better;
 
 /**
  * @author shaodw

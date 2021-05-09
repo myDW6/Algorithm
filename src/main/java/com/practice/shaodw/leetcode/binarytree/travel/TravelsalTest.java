@@ -1,6 +1,6 @@
 package com.practice.shaodw.leetcode.binarytree.travel;
 
-import com.practice.shaodw.support.TreeNode;
+import com.shaodw.leetcode.support.TreeNode;
 import org.junit.jupiter.api.*;
 
 /**

@@ -2,7 +2,7 @@ package com.practice.shaodw.leetcode.string.substring;
 
 
 
-import com.practice.shaodw.anno.Passed;
+import com.shaodw.anno.Passed;
 
 import java.util.HashSet;
 

@@ -2,9 +2,8 @@ package com.practice.shaodw.leetcode.binarytree.travel;
 
 
 
-import com.practice.shaodw.anno.Better;
-import com.practice.shaodw.anno.Passed;
-import com.practice.shaodw.support.TreeNode;
+import com.shaodw.anno.Passed;
+import com.shaodw.leetcode.support.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

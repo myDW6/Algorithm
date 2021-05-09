@@ -1,9 +1,9 @@
 package com.practice.shaodw.leetcode.listnode;
 
 
-import com.practice.shaodw.anno.Passed;
-import com.practice.shaodw.support.ListNode;
-import com.practice.shaodw.support.ListNodeTool;
+import com.shaodw.anno.Passed;
+import com.shaodw.leetcode.support.ListNode;
+import com.shaodw.leetcode.support.ListNodeTool;
 
 /**
  * @author shaodw

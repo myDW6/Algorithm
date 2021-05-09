@@ -2,8 +2,8 @@ package com.practice.shaodw.leetcode.doublepoint;
 
 
 
-import com.practice.shaodw.anno.Error;
-import com.practice.shaodw.anno.Passed;
+import com.shaodw.anno.Error;
+import com.shaodw.anno.Passed;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,12 +1,10 @@
 package com.shaodw.leetcode;
 
-
-
 /**
  * @Auther: shaodw
  * @Date: 2019-12-31 16:57
  * 两个排序数组的中位数 要求时间复杂度为O(log(m + n))
- * @Description:第一种思路利用归并排序的merge过程排序所有数， 按照索引直接取值 复杂度O(m+n) 额外空间复杂度为辅助数组O（m+n）
+ * @Description :第一种思路利用归并排序的merge过程排序所有数， 按照索引直接取值 复杂度O(m+n) 额外空间复杂度为辅助数组O（m+n）
  * 第二种思路利用在数组中遍历直到中位数的位置
  * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-2/
  */

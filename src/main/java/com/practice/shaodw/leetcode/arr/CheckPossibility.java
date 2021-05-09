@@ -1,7 +1,7 @@
 package com.practice.shaodw.leetcode.arr;
 
 
-import com.practice.shaodw.anno.Passed;
+import com.shaodw.anno.Passed;
 
 /**
  * @author shaodw

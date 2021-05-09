@@ -1,4 +1,4 @@
-package com.practice.shaodw.support;
+package com.shaodw.leetcode.support;
 
 /**
  * @Auther: shaodw

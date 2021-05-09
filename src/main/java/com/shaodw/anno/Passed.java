@@ -1,4 +1,4 @@
-package com.practice.shaodw.anno;
+package com.shaodw.anno;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -13,8 +13,8 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.SOURCE)
 public @interface Passed {
-    String note(); //笔记
+    String note() default ""; //笔记
     String idea() default ""; //想法
-    String complex(); //复杂度
+    String complex() default ""; //复杂度
     Class<?> better() default Void.class; //是否有更好的解法
 }

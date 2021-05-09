@@ -5,11 +5,11 @@ package com.shaodw.leetcode;
  * @Date: 2020-01-12 11:54
  * @Description:
  */
-public class ListNode<E> {
+public class CommonListNode<E> {
     E val;
-    ListNode next;
+    CommonListNode next;
 
-    ListNode(E val){
+    CommonListNode(E val){
         this.val = val;
     }
 }

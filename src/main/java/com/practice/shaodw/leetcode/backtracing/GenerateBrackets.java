@@ -1,7 +1,7 @@
 package com.practice.shaodw.leetcode.backtracing;
 
 
-import com.practice.shaodw.anno.Passed;
+import com.shaodw.anno.Passed;
 
 import java.util.ArrayList;
 import java.util.List;

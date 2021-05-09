@@ -6,10 +6,10 @@ package com.shaodw.leetcode;
  * @Description: 单链表常见操作 单链表反转
  */
 public class _206_ReverseList {
-    public ListNode reverseList(ListNode head) {
-        ListNode cur = head;
-        ListNode prev = null;
-        ListNode next = null;
+    public CommonListNode reverseList(CommonListNode head) {
+        CommonListNode cur = head;
+        CommonListNode prev = null;
+        CommonListNode next = null;
         while (cur != null){
             next = cur.next;
             cur.next = prev;
@@ -20,22 +20,22 @@ public class _206_ReverseList {
         return prev;
     }
 
-    public ListNode reverseListRec(ListNode head){
+    public CommonListNode reverseListRec(CommonListNode head){
         if (head == null || head.next == null)
             return head;
-        ListNode p = reverseListRec(head.next);
+        CommonListNode p = reverseListRec(head.next);
         head.next.next = head;
         head.next = null;
         return p;
     }
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
+        CommonListNode head = new CommonListNode(1);
+        head.next = new CommonListNode(2);
+        head.next.next = new CommonListNode(3);
+        head.next.next.next = new CommonListNode(4);
         //ListNode res = new _206_ReverseList().reverseList(head);
-        ListNode res = new _206_ReverseList().reverseListRec(head);
+        CommonListNode res = new _206_ReverseList().reverseListRec(head);
         while (res != null){
             System.out.println(res.val);
             res = res.next;

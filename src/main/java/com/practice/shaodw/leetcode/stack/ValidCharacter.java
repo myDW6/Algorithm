@@ -1,6 +1,6 @@
 package com.practice.shaodw.leetcode.stack;
 
-import com.practice.shaodw.anno.Passed;
+import com.shaodw.anno.Passed;
 
 import java.util.Stack;
 
