@@ -89,7 +89,7 @@ public class Sqrt {
 
     //这个递归就是获取到那个趋近于根x的那个数  然后拿那个数去递归调用
     public static double sqrt(double n, int x){
-        double ret = (n + x/n) /2;
+        double ret = (n + x/n) / 2;
         return ret == n ? n : sqrt(ret, x);
     }
 }
