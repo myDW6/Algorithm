@@ -22,4 +22,25 @@ public class StoneGame {
         return true;
     }
 
+    public static int res(int n) {
+        if(n == 0 || n == 1){
+            return n;
+        }
+        int prepre = 0;
+        int pre = 1;
+        int res = 0;
+        for (int i = 2; i <= n; i++){
+            res = prepre + pre;
+            prepre = pre;
+            pre = res;
+        }
+        return res;
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 31; i++) {
+            System.out.println(res(i));
+        }
+    }
+
 }

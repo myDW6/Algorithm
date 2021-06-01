@@ -265,8 +265,8 @@ public class CoinsWay {
 
 
     public static void main(String[] args) {
-        int[] arr = {10,5,1,15};
-        int aim = 200;
+        int[] arr = {1,2,5};
+        int aim = 10;
         long start = System.nanoTime();
         System.out.println(coins_recur(arr, aim));
         long end = System.nanoTime();
