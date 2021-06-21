@@ -10,9 +10,6 @@ package com.labuladong.tree;
  *
  */
 public class ConnectTree {
-
-
-
     public static class Node{
         public int val;
         public Node left;
