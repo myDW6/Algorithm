@@ -38,10 +38,9 @@ public class _144_PreorderTraversal {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
-
         root.right = new TreeNode(2);
         root.right.left = new TreeNode(3);
-        _144_PreorderTraversal test = new _144_PreorderTraversal();
-        test.preorderTraversal(root).forEach(System.out::println);
+        _144_PreorderTraversal _144 = new _144_PreorderTraversal();
+        _144.preorderTraversal(root).forEach(System.out::println);
     }
 }
